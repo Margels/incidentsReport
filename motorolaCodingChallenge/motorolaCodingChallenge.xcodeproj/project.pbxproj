@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		995D5EFD28803075004E697C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995D5EFC28803075004E697C /* AppDelegate.swift */; };
+		995D5EFF28803075004E697C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995D5EFE28803075004E697C /* SceneDelegate.swift */; };
+		995D5F0428803075004E697C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995D5F0228803075004E697C /* Main.storyboard */; };
+		995D5F0628803077004E697C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995D5F0528803077004E697C /* Assets.xcassets */; };
+		995D5F0928803077004E697C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995D5F0728803077004E697C /* LaunchScreen.storyboard */; };
+		995D5F1428803077004E697C /* motorolaCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995D5F1328803077004E697C /* motorolaCodingChallengeTests.swift */; };
+		995D5F1E28803077004E697C /* motorolaCodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995D5F1D28803077004E697C /* motorolaCodingChallengeUITests.swift */; };
+		995D5F2028803077004E697C /* motorolaCodingChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995D5F1F28803077004E697C /* motorolaCodingChallengeUITestsLaunchTests.swift */; };
+		99F29E6828813F3A001F7EE3 /* incidentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F29E6728813F3A001F7EE3 /* incidentsListViewController.swift */; };
+		99F29E6A2881E1DE001F7EE3 /* incidentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F29E692881E1DE001F7EE3 /* incidentTableViewCell.swift */; };
+		99F29E6C28820F7C001F7EE3 /* incidentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F29E6B28820F7C001F7EE3 /* incidentListViewModel.swift */; };
+		99F29E6E28820FA2001F7EE3 /* incidentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F29E6D28820FA2001F7EE3 /* incidentViewModel.swift */; };
+		99F29E7028820FBA001F7EE3 /* incidentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F29E6F28820FBA001F7EE3 /* incidentViewController.swift */; };
+		99F29E762882BE72001F7EE3 /* mapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F29E752882BE72001F7EE3 /* mapTableViewCell.swift */; };
+		99F29E782882BE89001F7EE3 /* detailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F29E772882BE89001F7EE3 /* detailTableViewCell.swift */; };
+		99F29E7A2882C247001F7EE3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F29E792882C247001F7EE3 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		995D5F1028803077004E697C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 995D5EF128803075004E697C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 995D5EF828803075004E697C;
+			remoteInfo = motorolaCodingChallenge;
+		};
+		995D5F1A28803077004E697C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 995D5EF128803075004E697C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 995D5EF828803075004E697C;
+			remoteInfo = motorolaCodingChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		995D5EF928803075004E697C /* motorolaCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motorolaCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		995D5EFC28803075004E697C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		995D5EFE28803075004E697C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		995D5F0328803075004E697C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		995D5F0528803077004E697C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		995D5F0828803077004E697C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		995D5F0A28803077004E697C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		995D5F0F28803077004E697C /* motorolaCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motorolaCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		995D5F1328803077004E697C /* motorolaCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motorolaCodingChallengeTests.swift; sourceTree = "<group>"; };
+		995D5F1928803077004E697C /* motorolaCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motorolaCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		995D5F1D28803077004E697C /* motorolaCodingChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motorolaCodingChallengeUITests.swift; sourceTree = "<group>"; };
+		995D5F1F28803077004E697C /* motorolaCodingChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motorolaCodingChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99F29E6728813F3A001F7EE3 /* incidentsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = incidentsListViewController.swift; sourceTree = "<group>"; };
+		99F29E692881E1DE001F7EE3 /* incidentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = incidentTableViewCell.swift; sourceTree = "<group>"; };
+		99F29E6B28820F7C001F7EE3 /* incidentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = incidentListViewModel.swift; sourceTree = "<group>"; };
+		99F29E6D28820FA2001F7EE3 /* incidentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = incidentViewModel.swift; sourceTree = "<group>"; };
+		99F29E6F28820FBA001F7EE3 /* incidentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = incidentViewController.swift; sourceTree = "<group>"; };
+		99F29E752882BE72001F7EE3 /* mapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapTableViewCell.swift; sourceTree = "<group>"; };
+		99F29E772882BE89001F7EE3 /* detailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailTableViewCell.swift; sourceTree = "<group>"; };
+		99F29E792882C247001F7EE3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		995D5EF628803075004E697C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995D5F0C28803077004E697C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995D5F1628803077004E697C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		995D5EF028803075004E697C = {
+			isa = PBXGroup;
+			children = (
+				995D5EFB28803075004E697C /* motorolaCodingChallenge */,
+				995D5F1228803077004E697C /* motorolaCodingChallengeTests */,
+				995D5F1C28803077004E697C /* motorolaCodingChallengeUITests */,
+				995D5EFA28803075004E697C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		995D5EFA28803075004E697C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				995D5EF928803075004E697C /* motorolaCodingChallenge.app */,
+				995D5F0F28803077004E697C /* motorolaCodingChallengeTests.xctest */,
+				995D5F1928803077004E697C /* motorolaCodingChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		995D5EFB28803075004E697C /* motorolaCodingChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				99F29E792882C247001F7EE3 /* Constants.swift */,
+				99F29E7128820FCA001F7EE3 /* Incident List */,
+				99F29E7228820FD7001F7EE3 /* Incident Detail */,
+				995D5EFC28803075004E697C /* AppDelegate.swift */,
+				995D5EFE28803075004E697C /* SceneDelegate.swift */,
+				995D5F0228803075004E697C /* Main.storyboard */,
+				995D5F0528803077004E697C /* Assets.xcassets */,
+				995D5F0728803077004E697C /* LaunchScreen.storyboard */,
+				995D5F0A28803077004E697C /* Info.plist */,
+			);
+			path = motorolaCodingChallenge;
+			sourceTree = "<group>";
+		};
+		995D5F1228803077004E697C /* motorolaCodingChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				995D5F1328803077004E697C /* motorolaCodingChallengeTests.swift */,
+			);
+			path = motorolaCodingChallengeTests;
+			sourceTree = "<group>";
+		};
+		995D5F1C28803077004E697C /* motorolaCodingChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				995D5F1D28803077004E697C /* motorolaCodingChallengeUITests.swift */,
+				995D5F1F28803077004E697C /* motorolaCodingChallengeUITestsLaunchTests.swift */,
+			);
+			path = motorolaCodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+		99F29E7128820FCA001F7EE3 /* Incident List */ = {
+			isa = PBXGroup;
+			children = (
+				99F29E6728813F3A001F7EE3 /* incidentsListViewController.swift */,
+				99F29E692881E1DE001F7EE3 /* incidentTableViewCell.swift */,
+				99F29E6B28820F7C001F7EE3 /* incidentListViewModel.swift */,
+			);
+			path = "Incident List";
+			sourceTree = "<group>";
+		};
+		99F29E7228820FD7001F7EE3 /* Incident Detail */ = {
+			isa = PBXGroup;
+			children = (
+				99F29E6F28820FBA001F7EE3 /* incidentViewController.swift */,
+				99F29E6D28820FA2001F7EE3 /* incidentViewModel.swift */,
+				99F29E752882BE72001F7EE3 /* mapTableViewCell.swift */,
+				99F29E772882BE89001F7EE3 /* detailTableViewCell.swift */,
+			);
+			path = "Incident Detail";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		995D5EF828803075004E697C /* motorolaCodingChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 995D5F2328803077004E697C /* Build configuration list for PBXNativeTarget "motorolaCodingChallenge" */;
+			buildPhases = (
+				995D5EF528803075004E697C /* Sources */,
+				995D5EF628803075004E697C /* Frameworks */,
+				995D5EF728803075004E697C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = motorolaCodingChallenge;
+			productName = motorolaCodingChallenge;
+			productReference = 995D5EF928803075004E697C /* motorolaCodingChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		995D5F0E28803077004E697C /* motorolaCodingChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 995D5F2628803077004E697C /* Build configuration list for PBXNativeTarget "motorolaCodingChallengeTests" */;
+			buildPhases = (
+				995D5F0B28803077004E697C /* Sources */,
+				995D5F0C28803077004E697C /* Frameworks */,
+				995D5F0D28803077004E697C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				995D5F1128803077004E697C /* PBXTargetDependency */,
+			);
+			name = motorolaCodingChallengeTests;
+			productName = motorolaCodingChallengeTests;
+			productReference = 995D5F0F28803077004E697C /* motorolaCodingChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		995D5F1828803077004E697C /* motorolaCodingChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 995D5F2928803077004E697C /* Build configuration list for PBXNativeTarget "motorolaCodingChallengeUITests" */;
+			buildPhases = (
+				995D5F1528803077004E697C /* Sources */,
+				995D5F1628803077004E697C /* Frameworks */,
+				995D5F1728803077004E697C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				995D5F1B28803077004E697C /* PBXTargetDependency */,
+			);
+			name = motorolaCodingChallengeUITests;
+			productName = motorolaCodingChallengeUITests;
+			productReference = 995D5F1928803077004E697C /* motorolaCodingChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		995D5EF128803075004E697C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					995D5EF828803075004E697C = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					995D5F0E28803077004E697C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 995D5EF828803075004E697C;
+					};
+					995D5F1828803077004E697C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 995D5EF828803075004E697C;
+					};
+				};
+			};
+			buildConfigurationList = 995D5EF428803075004E697C /* Build configuration list for PBXProject "motorolaCodingChallenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 995D5EF028803075004E697C;
+			productRefGroup = 995D5EFA28803075004E697C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				995D5EF828803075004E697C /* motorolaCodingChallenge */,
+				995D5F0E28803077004E697C /* motorolaCodingChallengeTests */,
+				995D5F1828803077004E697C /* motorolaCodingChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		995D5EF728803075004E697C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995D5F0928803077004E697C /* LaunchScreen.storyboard in Resources */,
+				995D5F0628803077004E697C /* Assets.xcassets in Resources */,
+				995D5F0428803075004E697C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995D5F0D28803077004E697C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995D5F1728803077004E697C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		995D5EF528803075004E697C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F29E7028820FBA001F7EE3 /* incidentViewController.swift in Sources */,
+				99F29E6828813F3A001F7EE3 /* incidentsListViewController.swift in Sources */,
+				99F29E762882BE72001F7EE3 /* mapTableViewCell.swift in Sources */,
+				99F29E6C28820F7C001F7EE3 /* incidentListViewModel.swift in Sources */,
+				995D5EFD28803075004E697C /* AppDelegate.swift in Sources */,
+				99F29E7A2882C247001F7EE3 /* Constants.swift in Sources */,
+				995D5EFF28803075004E697C /* SceneDelegate.swift in Sources */,
+				99F29E6E28820FA2001F7EE3 /* incidentViewModel.swift in Sources */,
+				99F29E6A2881E1DE001F7EE3 /* incidentTableViewCell.swift in Sources */,
+				99F29E782882BE89001F7EE3 /* detailTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995D5F0B28803077004E697C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995D5F1428803077004E697C /* motorolaCodingChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995D5F1528803077004E697C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995D5F1E28803077004E697C /* motorolaCodingChallengeUITests.swift in Sources */,
+				995D5F2028803077004E697C /* motorolaCodingChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		995D5F1128803077004E697C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 995D5EF828803075004E697C /* motorolaCodingChallenge */;
+			targetProxy = 995D5F1028803077004E697C /* PBXContainerItemProxy */;
+		};
+		995D5F1B28803077004E697C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 995D5EF828803075004E697C /* motorolaCodingChallenge */;
+			targetProxy = 995D5F1A28803077004E697C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		995D5F0228803075004E697C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				995D5F0328803075004E697C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		995D5F0728803077004E697C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				995D5F0828803077004E697C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		995D5F2128803077004E697C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		995D5F2228803077004E697C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		995D5F2428803077004E697C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = motorolaCodingChallenge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = incidentReports;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.motorolaCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		995D5F2528803077004E697C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = motorolaCodingChallenge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = incidentReports;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.motorolaCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		995D5F2728803077004E697C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.motorolaCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motorolaCodingChallenge.app/motorolaCodingChallenge";
+			};
+			name = Debug;
+		};
+		995D5F2828803077004E697C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.motorolaCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motorolaCodingChallenge.app/motorolaCodingChallenge";
+			};
+			name = Release;
+		};
+		995D5F2A28803077004E697C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.motorolaCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = motorolaCodingChallenge;
+			};
+			name = Debug;
+		};
+		995D5F2B28803077004E697C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.motorolaCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = motorolaCodingChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		995D5EF428803075004E697C /* Build configuration list for PBXProject "motorolaCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995D5F2128803077004E697C /* Debug */,
+				995D5F2228803077004E697C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995D5F2328803077004E697C /* Build configuration list for PBXNativeTarget "motorolaCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995D5F2428803077004E697C /* Debug */,
+				995D5F2528803077004E697C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995D5F2628803077004E697C /* Build configuration list for PBXNativeTarget "motorolaCodingChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995D5F2728803077004E697C /* Debug */,
+				995D5F2828803077004E697C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995D5F2928803077004E697C /* Build configuration list for PBXNativeTarget "motorolaCodingChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995D5F2A28803077004E697C /* Debug */,
+				995D5F2B28803077004E697C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 995D5EF128803075004E697C /* Project object */;
+}
