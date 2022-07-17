@@ -21,7 +21,7 @@ Bonus for UIKit ✅ <br>
 #### Incident Details
 
 1. Show each of the following pieces of information, and ensure they are labelled and
-left-aligned ✅
+left-aligned ✅ <br>
 • Incident Location ✅ <br>
 • Incident Status ✅ <br> 
 • Incident Type ✅ <br>
